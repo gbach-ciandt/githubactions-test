@@ -28,7 +28,7 @@ jobs:
         working-directory: ./tests
 
       - name: Run tests
-        run: npx wdio wdio.conf.js spain  # Run your tests using Jest
+        run: npx wdio wdio.conf.js spain  
         working-directory: ./tests
         env: 
           EMULATOR_NAME: "ES"
