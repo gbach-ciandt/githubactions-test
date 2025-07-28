@@ -7,7 +7,7 @@ const emulator = require('./utils/emulator')
 const commonConfig = require('./utils/commonConfig');
 
 const country        = process.argv[3] || 'spain';
-const androidAppPath = path.join(__dirname, `app/${country}/dominos-android.apk`);
+const androidAppPath = path.join(process.cwd(), `app/${country}/dominos-android.apk`);
 
 let emulatorProcess; 
 
@@ -16,7 +16,7 @@ exports.config = {
 
     onPrepare: async function () {
         try {
-            //await downloadAPK(country)
+            await downloadAPK(country)
             emulatorProcess = await emulator.start(process.env.EMULATOR_NAME)
             await sleep(10000)
             await emulator.cleanAppium()
