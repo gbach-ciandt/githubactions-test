@@ -30,3 +30,8 @@ jobs:
       - name: Run tests
         run: npx wdio wdio.conf.js spain  # Run your tests using Jest
         working-directory: ./tests
+        env: 
+          EMULATOR_NAME: "ES"
+          FIREBASE_SERVICE_JSON: ${{ secrets.FIREBASE_SERVICE_JSON }}
+          APP_ID: ${{ secrets.APP_ID }}
+          PROJECT_ID: ${{ secrets.PROJECT_ID }}
