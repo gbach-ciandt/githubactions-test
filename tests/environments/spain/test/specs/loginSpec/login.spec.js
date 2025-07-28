@@ -5,7 +5,7 @@ const firstScreen = require("../../screenObjects/loginScreen/firstScreen");
 describe("Validate the login process", () => {
   it("Login with a valid user", async () => {
     await firstScreen.clickOnAllowNotifications();
-    await firstScreen.clickOnAcceptTheCookies();
+    //await firstScreen.clickOnAcceptTheCookies();
 
     await loginScreen.clickOnLogin();
     await loginScreen.login(

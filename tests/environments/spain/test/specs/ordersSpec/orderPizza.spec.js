@@ -9,7 +9,7 @@ const { browser, expect } = require("@wdio/globals");
 describe("Order a pizza!", () => {
   before(async () => {
     await firstScreen.clickOnAllowNotifications();
-    await firstScreen.clickOnAcceptTheCookies();
+    //await firstScreen.clickOnAcceptTheCookies();
 
     await loginScreen.clickOnLogin();
     await loginScreen.login(

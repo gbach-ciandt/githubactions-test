@@ -6,7 +6,7 @@ const profileScreen = require("../../screenObjects/profileScreen/profileScreen")
 describe("Profile updates", () => {
   beforeEach(async () => {
     await firstScreen.clickOnAllowNotifications();
-    await firstScreen.clickOnAcceptTheCookies();
+    //await firstScreen.clickOnAcceptTheCookies();
 
     await loginScreen.clickOnLogin();
     await loginScreen.login(

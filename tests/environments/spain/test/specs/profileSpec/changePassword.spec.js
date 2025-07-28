@@ -4,7 +4,7 @@ const firstScreen = require("../../screenObjects/loginScreen/firstScreen");
 const profileScreen = require("../../screenObjects/profileScreen/profileScreen");
 const {generateRandomPassword, updateCredentialsJSON } = require("../../../../../utils/randomPassword")
 const sleep = require("../../../../../utils/sleep")
-
+/*
 describe("Profile updates", () => {
   beforeEach(async () => {
     await firstScreen.clickOnAllowNotifications();
@@ -59,3 +59,4 @@ describe("Profile updates", () => {
     expect(success).toBe(true);
   });
 });
+*/

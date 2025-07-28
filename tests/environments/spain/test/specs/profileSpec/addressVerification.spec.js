@@ -7,7 +7,7 @@ const profileAddressScreen = require("../../screenObjects/profileScreen/addressP
 describe("Profile changes -> address!", () => {
   before(async () => {
     await firstScreen.clickOnAllowNotifications();
-    await firstScreen.clickOnAcceptTheCookies();
+    //await firstScreen.clickOnAcceptTheCookies();
 
     await loginScreen.clickOnLogin();
     await loginScreen.login(
