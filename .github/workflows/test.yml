@@ -15,6 +15,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2  # Checks out the repository code
 
+      - name: List contents
+        run: ls -R
+        
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
