@@ -1,0 +1,26 @@
+{
+    "name": "webdriverio-tests",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "@wdio/appium-service": "^9.12.6",
+        "@wdio/cli": "^8.44.1",
+        "@wdio/globals": "^9.12.7",
+        "@wdio/local-runner": "^9.12.7",
+        "@wdio/mocha-framework": "^9.12.6",
+        "@wdio/spec-reporter": "^9.12.6",
+        "@wdio/visual-service": "^6.4.0",
+        "appium": "^2.0.0-beta.55",
+        "appium-uiautomator2-driver": "^2.12.3",
+        "appium-xcuitest-driver": "^4.35.0"
+    },
+    "scripts": {
+        "wdioIosSpain": "wdio run config/ios-spain-wdio.conf.js",
+        "wdioIosMexico": "wdio run config/ios-mexico-wdio.conf.js",
+        "wdioIosColombia": "wdio run config/ios-colombia-wdio.conf.js",
+        "wdio": "wdio run ./wdio.conf.js"
+    },
+    "dependencies": {
+        "firebase-admin": "^13.4.0"
+    }
+}

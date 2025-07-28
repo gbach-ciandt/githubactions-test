@@ -1,4 +1,4 @@
-name: JavaScript CI
+name: dominos-alsea-ci
 
 on:
   push:
@@ -25,8 +25,8 @@ jobs:
 
       - name: Install dependencies
         run: npm install  # Install the dependencies listed in package.json
-        working-directory: ./hello-world-test
+        working-directory: ./tests
 
       - name: Run tests
-        run: npm test  # Run your tests using Jest
-        working-directory: ./hello-world-test
+        run: npx wdio wdio.conf.js spain  # Run your tests using Jest
+        working-directory: ./tests
