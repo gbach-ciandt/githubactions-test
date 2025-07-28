@@ -22,6 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: npm install  # Install the dependencies listed in package.json
+        working-directory: ./hello-world-test
 
       - name: Run tests
         run: npm test  # Run your tests using Jest
