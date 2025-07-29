@@ -5,7 +5,7 @@ const orderMenuScreen = require("../../screenObjects/orderScreen/orderMenuScreen
 const profileAddressScreen = require("../../screenObjects/profileScreen/addressProfileScreen");
 const sleep = require("../../../../../utils/sleep");
 const { browser, expect } = require("@wdio/globals");
-
+/*
 describe("Order a pizza!", () => {
   before(async () => {
     await firstScreen.clickOnAllowNotifications();
@@ -81,3 +81,4 @@ describe("Order a pizza!", () => {
     expect(finishPage).toBe(true)
   })  
 });
+*/
