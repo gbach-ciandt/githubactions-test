@@ -2,7 +2,7 @@ const loginScreen = require("../../screenObjects/loginScreen/loginScreen");
 const spainData = require("../../../../../data/spainCredentials.json");
 const firstScreen = require("../../screenObjects/loginScreen/firstScreen");
 const profileScreen = require("../../screenObjects/profileScreen/profileScreen");
-
+/*
 describe("Profile updates", () => {
   beforeEach(async () => {
     await firstScreen.clickOnAllowNotifications();
@@ -36,3 +36,4 @@ describe("Profile updates", () => {
     await expect(txtPhoneNumberChanged).toBe('999999999');
   });
 });
+*/

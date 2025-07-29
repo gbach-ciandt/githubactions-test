@@ -2,7 +2,7 @@ const {exec} = require('child_process');
 
 async function start(emulatorName) {
     console.log(`Starting emulator: ${emulatorName}`);
-    emulatorProcess = exec(`emulator -avd "${emulatorName}" -no-window`, (error) => {
+    emulatorProcess = exec(`emulator -avd "${emulatorName}"`, (error) => {
             if (error) {
                 console.log("ERRO: ", error)
             }

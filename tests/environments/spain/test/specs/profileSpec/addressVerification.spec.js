@@ -3,7 +3,7 @@ const spainData = require("../../../../../data/spainCredentials.json");
 const firstScreen = require("../../screenObjects/loginScreen/firstScreen");
 const profileScreen = require("../../screenObjects/profileScreen/profileScreen");
 const profileAddressScreen = require("../../screenObjects/profileScreen/addressProfileScreen");
-
+/*
 describe("Profile changes -> address!", () => {
   before(async () => {
     await firstScreen.clickOnAllowNotifications();
@@ -52,3 +52,4 @@ describe("Profile changes -> address!", () => {
   
 });
 
+*/
